@@ -5,13 +5,13 @@ import { ModalProvider } from '/modal.context';
 
 function App() {
   return (
-    <ModalProvider>
+    <ModallProvider>
       <div className="App">
         <HomePage />
         <Modal />
       </div>
-    </ ModalProvider>
-  );
+</ ModalProvider>
+      );
 }
 
-export default App;
+      export default App;
